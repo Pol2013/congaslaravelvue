@@ -1,0 +1,629 @@
+html
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+body
+{ font: normal .80em 'trebuchet ms', arial, sans-serif;
+  background: #F7F7F7 url(images/pattern.png) fixed;
+  color: #555;}
+
+p
+{ padding: 0 0 20px 0;
+  line-height: 1.5em;
+  font-size: 107%;}
+
+h1, h2, h3, h4, h5, h6 
+{ font: normal 250% 'Yanone Kaffeesatz', arial, sans-serif;
+  color: #444;
+  margin: 0 0 15px 0;
+  padding: 5px 0 5px 0;}
+
+h2
+{ font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
+  color: #F14E23;  
+  margin: 0;
+  padding: 0 0 8px 0;}
+
+h3
+{ font-size: 200%;
+  margin: 0 0 9px 0;
+  color: #444;}
+
+h4, h5, h6
+{ margin: 0;
+  padding: 0 0 5px 0;
+  font: normal 100% arial, sans-serif;
+  color: #F14E23;
+  line-height: 1em;}
+
+h5, h6
+{ font: italic 95% arial, sans-serif;
+  color: #888;
+  padding-bottom: 15px;}
+
+h6
+{ color: #362C20;}
+
+a, a:hover
+{ outline: none;
+  text-decoration: none;
+  color: #35BDF5;}
+
+a:hover
+{ text-decoration: underline;}
+
+.left
+{ float: left;
+  width: auto;
+  margin-right: 10px;}
+
+.right
+{ float: right; 
+  width: auto;
+  margin-left: 10px;}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 20px auto;}
+
+{ margin: 0 0 11px 0;}
+
+#main, #header, #logo, #menubar, #site_content, #footer
+{ margin-left: auto; 
+  margin-right: auto;}
+
+#main
+{ width: 1270px;
+  margin: 20px auto;}
+
+#header
+{ width: 1359px;
+  height: 0px;}
+
+#logo
+{ width: 950px;
+  float: left;
+  height: 100px;
+  background: transparent;
+  padding: 0 0 0px 10px;}
+
+#logo h1
+{ font: normal 350% 'Yanone Kaffeesatz', arial, sans-serif;
+  padding: 5px 0 0 17px;
+  color: #555;
+  float: left;}
+
+#logo h1 a
+{ color: #35BDF5;
+  text-decoration: none;}
+
+#logo h1 a:hover
+{ color: #555;
+  text-decoration: none;}
+  
+label.style-text
+{ 
+font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+}
+
+.slogan
+{ float: right; 
+  padding-right: 25px;
+  text-align: right; 
+  font: 500% 'tangerine', arial; 
+  color: #111;}
+
+#menubar
+{ height: 46px;
+  width: 500px;
+  margin: 0px auto -1px auto;
+  float: right;
+  padding: 0px 78px 0 0;} 
+
+ul#menu
+{ float: right;}
+
+ul#menu > li
+{ float:left;
+  list-style:none;
+  font: normal 150% 'Yanone Kaffeesatz', sans-serif;
+  background: transparent;
+  min-width:100px;
+  text-align:center;}
+
+ul#menu li a
+{ color: #555;
+  text-decoration:none;
+  padding:10px 12px;
+  display:block;} 
+
+ul#menu li a:hover
+{ color: #F14E23;}  
+
+ul#menu li ul 
+{ display:none;
+  position:absolute;}
+
+ul#menu li:hover > ul 
+{ display:block;
+  color:#444; }
+   
+ul#menu li ul li 
+{ min-width:140px;
+  left:-8px;
+  text-align:center;
+  list-style:none;
+  font: normal 80% 'Yanone Kaffeesatz', sans-serif;
+  position:relative;
+  background: transparent url(../images/transparent.png) repeat;}
+			
+ul#menu li ul li ul 
+{ right:-147px;
+  top:0px;
+  min-width:100px;
+  }
+
+ul#menu li ul li:hover > ul 
+{ display:block;
+  color:#444; }
+  
+ul#menu li.current a 
+{ background: transparent url(../images/transparent.png);}
+
+ul#menu li.current a:hover 
+{ background-color:#434343;}   
+			
+#site_content
+{ width: 1270px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background: #fff;
+  border: 1px solid #E7E7E7;}  
+  
+#site_content01
+{ width: 800px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background: transparent url(../images/transparent.png) repeat;
+  border: 1px solid #000;} 
+  
+#site_content_min
+{ width: 500px;
+  overflow: hidden;
+  margin: 0 auto 0 auto;
+  padding: 0;
+  background: transparent url(../images/transparent.png) repeat;
+  border: 1px solid #000;} 
+  
+#content_form
+ { text-align: left;
+  width: 970px;
+  padding: 25px 0 0 25px;
+  margin: 0;}
+ 
+#content_form ul
+{ margin: 2px 0 22px 0px;}
+
+#content_form ul li
+{ list-style-type: none;
+  background: url(bullet.png) no-repeat;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;} 
+  
+#sidebar_container
+{ background: #996600;
+  float: right;
+  width: 250px;
+  margin: 20px 0px 0px 0px;}
+
+#panel_superior
+{ float: right;
+  width: 300px;
+  margin: 30px 55px 0px 0px;}
+  
+.sidebar
+{ position: absolute;
+  float: right;
+  width: 200px;
+  margin: 0 24px 27px 0;
+  background: #f2f2f2;
+  padding: 15px 15px 15px 15px;}
+  
+ .sidebar p{
+  font: normal 150% 'Yanone Kaffeesatz', arial, sans-serif;
+ }
+  
+.sidebar h3, .content h1
+{ margin: 0 1px;}
+
+.sidebar h1
+{ padding: 0px 0 0 0;}
+
+.sidebar_notice
+{ 
+  width: 447px;
+  margin: 0 24px 27px 0;
+  background: #1d1d1d;
+  border: 1px solid #000;
+  color: #FFF;
+  padding: 0 15px 15px 15px;}
+  
+.paperclip
+{ float: left;
+  position: relative; 
+  z-index: 0;
+  vertical-align: middle; 
+  margin: -27px 0 -60px -30px;}
+
+#content
+{ text-align: left;
+  width: 630px;
+  padding: 25px 0 5px 70px;
+  margin: 0;}
+
+#content ul
+{ margin: 2px 0 22px 0px;}
+
+#content ul li
+{ list-style-type: none;
+  background: url(../images/bullet.png) no-repeat;
+  margin: 0 0 6px 0; 
+  padding: 0 0 4px 25px;
+  line-height: 1.5em;}
+  
+#content_tabla
+{ text-align: left;
+  width: 800px;
+  padding: 25px 0 5px 70px;
+  margin: 0;}
+  
+#content_tabla_popup
+{ text-align: left;
+  width: 660px;
+  padding: 25px 0 5px 70px;
+  margin: 0;}
+ 
+#content_min
+{ text-align: left;
+  width: 100px;
+  padding: 25px 0px 0px 25px;
+  margin: 0;} 
+  
+#content_tbl_venta
+{ text-align: left;
+  width: 800px;
+  padding: 25px 0 5px 55px;
+  margin: 0;}
+
+#content_tbl
+{ text-align: left;
+  width: 800px;
+  padding: 25px 0 5px 55px;
+  margin: 0;}
+  
+#footer
+{ clear: both;
+  width: 100%;
+  font: normal 150% 'yanone kaffeesatz',  arial, sans-serif;
+  height: 85px;
+  padding: 20px 0 5px 0;
+  text-align: center; 
+  color: #555;
+  background: transparent;
+  margin-bottom: 20px;}
+
+#footer p
+{ padding: 0 0 10px 0;}
+
+#footer a, #footer a:hover
+{ color: #555;
+  text-decoration: none;}
+
+#footer a:hover
+{ color: #35BDF5;
+  text-decoration: none;}
+
+.form_settings
+{ margin: 5px 0 0 0;}
+
+.form_settings p
+{
+	padding: 0 0 5px 0;
+	font-size: 107%;
+}
+
+.form_settings span
+{ padding: 5px 0; 
+  float: left; 
+  width: 200px; 
+  text-align: left;}
+  
+.form_settings input, .form_settings textarea
+{ width: 257px; 
+  font: 100% 'trebuchet ms', arial;
+  border: 0;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+  background: #fff;
+  color: #3C3A3A;}
+  
+.form_settings .submit
+{ border: 0; 
+  width: auto;
+  margin: 0 0 0 187px; 
+  cursor: pointer; 
+  color: #35BDF5;
+  border: 1px solid #ddd;
+  padding: 5px 15px;
+  background: #1d1d1d;
+  font: normal 140% 'Yanone Kaffeesatz', sans-serif;}
+
+.form_settings textarea, .form_settings select
+{ font: 100% 'trebuchet ms', arial; 
+  border: 1px solid #eee;
+  padding: 5px 12px;
+  background: #fff;
+  color: #3C3A3A;
+  width: 253px;
+  overflow: auto;}
+
+.form_settings select
+{ width: 279px;}
+
+.form_settings .checkbox
+{ margin: 4px 0; 
+  padding: 0; 
+  width: 14px;
+  border: 0;
+  background: none;}
+  
+.search
+{ color: #666;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 10px 5px;
+  width: 189px;
+  color: #F14E23;}
+  
+.subscribe
+{ color: #35BDF5;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  background: #fff;
+  float: right;
+  cursor: pointer;
+  margin: 0;
+  font: normal 140% 'Yanone Kaffeesatz', sans-serif;}
+ 
+.tabla_ccs
+{ margin: 10px 0 30px 0;}
+
+.tabla_ccs tr th
+{ font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+  background: #fff;
+  color: #3C3A3A;
+  padding: 7px 4px;
+  text-align: center;}
+  
+.tabla_ccs tr td
+{ font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+  color: #3C3A3A;
+  border-top: 1px solid #FFF;
+  text-align: center;}
+
+fieldset { 
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+fieldset legend {
+	font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
+	color: #F14E23;
+	padding: 5px;
+}
+
+.fieldset_popup { 
+  padding-top: 10px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  padding-left: 10px; }
+
+.fieldset_popup legend {
+	font: normal 170% 'Yanone Kaffeesatz', arial, sans-serif;
+	color: #F14E23;
+	padding: 5px;
+}
+  
+.style-button .submit
+{ border: 0; 
+  width: auto;
+  cursor: pointer; 
+  color: #35BDF5;
+  border: 1px solid #ddd;
+  padding: 3px 15px;
+  background: #1d1d1d;
+  font: normal 120% 'Yanone Kaffeesatz', sans-serif;}
+
+input.re-size, textarea.re-size, select.re-size
+{ font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+  border: 0;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+  background: #fff;
+  color: #3C3A3A;
+  text-transform:uppercase;
+  text-align:center;}
+  
+input.re-sizes, textarea.re-sizes, select.re-sizes
+{ font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+  border: 0;
+  border: 1px solid #eee;
+  padding: 5px 10px;
+  background: #fff;
+  color: #3C3A3A;
+  text-align:center;}
+
+div.dataTables_length {
+	margin: 20px 0 20px 0;
+}
+div.dataTables_length  label{
+    font: normal 150% 'Yanone Kaffeesatz', arial, sans-serif;
+	color: #1d1d1d;
+} 
+div.dataTables_length  select{
+  font: 70% 'trebuchet ms', arial;
+  border: 0;
+  border: 1px solid #eee;
+  padding: 4px 10px;
+  background: #fff;
+  color: #1d1d1d  ;
+  text-transform:uppercase;;
+} 
+div.dataTables_filter {
+	margin: 20px 0 20px 0;
+}
+div.dataTables_filter  label{
+    font: normal 150% 'Yanone Kaffeesatz', arial, sans-serif;
+	color: #1d1d1d;
+} 
+div.dataTables_filter  input{
+  font: 70% 'trebuchet ms', arial;
+  border: 0;
+  border: 1px solid #eee;
+  padding: 4px 10px;
+  background: #fff;
+  color: #1d1d1d  ;
+  text-transform:uppercase;;
+} 
+.dataTables_info {
+    font: normal 150% 'Yanone Kaffeesatz', arial, sans-serif;
+	color: green;
+} 
+
+section {
+    width: 100%;
+    height: 420px;
+    margin: auto;
+/*    padding: 10px;*/
+}
+div#one {
+    width: 442px;
+    height: 410px;
+/*	background: red; */
+    float: left;
+}
+div#two {
+    width: 16px;
+	height: 410px;
+/*	background: red;*/
+    float: left;
+}
+div#three {
+	width: 442px;
+    height: 410px;
+/*	background: yellow; */
+    float: left;
+
+}
+
+.fadebox {
+	display: none;
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	z-index:1001;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+.overbox {
+	display: none;
+	position: absolute;
+	top: 25%;
+	left: 38%;
+	width: 270px;
+	height: 70%;
+	z-index:1002;
+	overflow: auto;
+}
+
+#cont {
+  border: solid 0px #CCCCCC;
+  text-align: left;
+  width: 210px;
+  margin: 0;
+}
+
+.tabla_alert
+{ margin: 10px 0 30px 0;}
+
+.tabla_alert tr th, tabla_alert tr td
+{ font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+  color: #FFFBFB;
+  padding: 7px 4px;
+  text-align: center;}
+  
+.tabla_alert tr td
+{ font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+  color: #FFFBFB;
+  border-top: 0px solid #FFF;
+  text-align: center;}
+  
+input.re-config_size
+{ font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+  border: 0;
+/*  border: 1px solid transparent;*/
+  padding: 5px 10px;
+  background: transparent;
+  color: #FFFBFB;
+  text-transform:uppercase;
+  text-align:center;}
+
+header{
+  font: normal 120% 'Yanone Kaffeesatz', arial, sans-serif;
+  width: 250px;
+  float: right;
+  margin: 0px 72px 0px 0px;
+}
+ul{
+  list-style: none;
+  z-index: 597;
+  position: relative;
+}
+#menu li>a{
+  background-color: #FFFBFB;
+  color: black;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+  border: 1px solid #D7E9F8;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+  position: absolute;
+}
+#menu>li:hover>ul {
+  display:block;
+  position: absolute;
+}
+
