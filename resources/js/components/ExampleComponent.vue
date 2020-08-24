@@ -10,29 +10,7 @@
                         I'm an example component.
                     </div>
                 </div>
-                <table class="table text-center"><!--Creamos una tabla que mostrará todas las tareas-->
-                        <thead>
-                            <tr>
-                                <th scope="col">Nombre</th>
-                                <th scope="col">Descripción</th>
-                                <th scope="col">Contenido</th>
-                                <th scope="col">Acciones</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr v-for="task in arrayTasks" :key="task.id"> <!--Recorremos el array y cargamos nuestra tabla-->
-                                <td v-text="task.name"></td>
-                                <td v-text="task.description"></td>
-                                <td v-text="task.content"></td>
-                                <td>
-                                    <!--Botón modificar, que carga los datos del formulario con la tarea seleccionada-->
-                                    <button class="btn" @click="loadFieldsUpdate(task)">Modificar</button>
-                                    <!--Botón que borra la tarea que seleccionemos-->
-                                    <button class="btn" @click="deleteTask(task)">Borrar</button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
+               
 
             </div>
             <div class="col-md-6">
